@@ -316,7 +316,7 @@ ul.list-check li::before {
 }
 #home:before {
 	content: "";
-	background-color: rgba(26, 30, 35, 0.85);
+	background-color: #282828;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -405,7 +405,7 @@ SOCIAL ICON
 }
 
 .social-icons a i:hover::after{
-    background: #68c3a3;
+    background: #878ecd;
     border: 1px solid transparent;
     z-index: 0;
 }
@@ -857,7 +857,7 @@ Resume Timeline
 }
 
 .timeline>li .timeline-content:hover {
-    background: #68c3a3;
+    background: #878ecd;
     color: #fff;
 }
 
@@ -878,7 +878,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::before {
-    border-left: 12px solid #68c3a3;
+    border-left: 12px solid #878ecd;
 }
 
 .timeline>li.timeline-inverted .timeline-panel::before {
@@ -890,7 +890,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::before {
-    border-right: 12px solid #68c3a3;
+    border-right: 12px solid #878ecd;
     border-left: 0;
 }
 
@@ -912,7 +912,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::after {
-    border-left: 12px solid #68c3a3;
+    border-left: 12px solid #878ecd;
 }
 
 .timeline>li.timeline-inverted .timeline-panel::after {
@@ -925,7 +925,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::after {
-    border-right: 12px solid #68c3a3;
+    border-right: 12px solid #878ecd;
     border-left: 0;
 }
 
